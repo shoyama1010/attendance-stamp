@@ -1,0 +1,7 @@
+{
+    "require": {
+        
+        "laravel/tinker": "^2.5",
+        "nesbot/carbon": "^2.31"
+    }
+}
