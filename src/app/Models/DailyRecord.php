@@ -12,6 +12,8 @@ class DailyRecord extends Model
     protected $fillable = [
         'user_id',
         'date',
+        'break_start',
+        'break_end',
         'total_break_time',
         'actual_work_time',
     ];
