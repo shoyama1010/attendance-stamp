@@ -19,6 +19,7 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/', [TimeCardController::class, 'index'])->name('home');
 
 Route::get('/records', [TimeCardController::class, 'records'])->name('records');
